@@ -1,5 +1,6 @@
 import React from "react";
 import Modal from "./Component/Modal";
+import medalla from "../src/Img/medalla3.png"
 import "./styles.css";
 class App extends React.Component {
   state = {
@@ -25,10 +26,31 @@ class App extends React.Component {
         </button>
 
         <Modal onClose={this.showModal} show={this.state.show}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
-          deserunt corrupti, ut fugit magni qui quasi nisi amet repellendus non
-          fuga omnis a sed impedit explicabo accusantium nihil doloremque
-          consequuntur.
+        <div className="Modal2">
+                <div className="Nombre">
+                    <h1>Richard Alvarez Ruiz</h1>
+                </div>
+          
+                <div className="Cuerpo">
+                    <p>POR HABER PARTICIPADO EN EL EVENDO DE BLENDER <br/>
+                       PERÚ ORGANIZADO POR UPC</p>
+                    {/* <img className="meda" src={medalla}></img> */}
+                </div>
+                
+                <div className="footer">
+                    <div className="fecha" >
+                      <p> 21 de diciembre del 2019 </p>
+                    </div>  
+                    <div className="imagenes">
+                      <img src={medalla} className="imagen"/>
+                     </div>
+                </div>
+
+                
+
+                    
+                
+          </div>
         </Modal>
       </div>
     );

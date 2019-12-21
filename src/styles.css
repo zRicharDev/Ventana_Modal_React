@@ -1,4 +1,59 @@
 .App {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   text-align: center;
+  
+}
+
+
+.Nombre{
+  font-family: "Brush Script MT";
+  font-size: 40px;
+  text-align: top;
+  
+}
+
+.Cuerpo{
+
+ font-size: 25px;
+ 
+}
+
+.meda{
+  text-align: right;
+  height: 100px;
+  width: 100px;
+}
+.Modal2{
+  
+  height:500px;
+  height:500px;
+}
+.imagenes{
+ 
+ height:180px;
+  width:180px;
+  float: right;
+  
+
+}
+
+.footer{
+ 
+  height: 100%;
+  height: 180px;
+}
+
+.imagen{
+  height: 150px;
+  width: 150px;
+  float: right;
+  padding-top: 0%;
+
+}
+
+.fecha{
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  float: left;
+  padding-left: 400px;
 }
